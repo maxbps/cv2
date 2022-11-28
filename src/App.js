@@ -3,6 +3,7 @@
  import { Banniere } from './Composants/Banniere/Banniere';
  import { Description } from './Composants/Description/Description';
   import { Competence } from './Composants/Competence/Competence';
+  import { Portfolio } from './Composants/Portfolio/Portfolio';
 
  // Import du CSS
  import './App.css';
@@ -14,6 +15,7 @@ function App() {
       <Banniere />
       <Description />
       <Competence />
+      <Portfolio />
     </div>
   );
 }

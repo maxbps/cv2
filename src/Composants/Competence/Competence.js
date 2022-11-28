@@ -8,7 +8,7 @@ import "./Competence.css";
 
 function Competence() {
   return (
-    <section id="competence" data-effect="slide-bottom" className="bg-white ">
+    <section id="competence" data-effect="slide-bottom" className="bg-white shadow">
       <div className="container-fluid">
         <div className="row align-items-center card-container">
           <div className="competence-card col-lg-4">
@@ -74,7 +74,7 @@ function Competence() {
               <h3 className="title text-center">
                 Manager en Système d'information
               </h3>
-              <h4 className="subtitle text-center">CESI Ecole d'Ingénieurs</h4>
+              <h4 className="subtitle text-center">CESI École d'Ingénieurs</h4>
               <h4 className="subsubtitle text-center mb-4">RNCP11554</h4>
               <p className="card-text lead">
                 Some quick example text to build on the card title and make up

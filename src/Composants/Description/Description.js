@@ -8,7 +8,7 @@ import "./Description.css";
 
 function Description() {
   return (
-    <section id="description" data-effect="slide-bottom" class="bg-black text-light">
+    <section id="description" data-effect="slide-bottom" class="bg-purple text-light">
       <div class="container">
         <div class="row  align-items-center">
           <div class="col-lg-3">
