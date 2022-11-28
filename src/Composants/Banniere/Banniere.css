@@ -1,0 +1,26 @@
+.banniere {
+  position: relative;
+  top: 0;
+  height: 100%;
+  background: 
+  /* linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.0) 0%,
+      rgba(0, 0, 0, 0.6) 80%,
+      #000 150%
+    ), */ url("../../Assets/laptop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.banniere-title {
+  position: relative;
+  top: 70px;
+}
+
+.banniere-subtitle {
+  position: relative;
+  top: 70%;
+}
