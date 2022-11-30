@@ -38,6 +38,11 @@ body,
   color: rgba(53, 95, 246, 0.7);
 }
 
+.text-large {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
 .text {
   font-size: 1.2rem;
 }
@@ -49,6 +54,11 @@ body,
 
 .text-grey{
   color: #6c757d;
+}
+
+.text-link{
+  text-decoration: none;
+  color: #230de9;
 }
 
 .bg-purple{

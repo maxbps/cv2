@@ -1,0 +1,53 @@
+.card-img {
+  object-fit: cover;
+  overflow: hidden;
+  height: 100%;
+}
+
+.projet-card {
+  cursor: pointer;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 15px;
+}
+.projet-card .fadedbox {
+  background-color: #1a1818;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  padding: 90px 20px;
+}
+.projet-card:hover .fadedbox {
+  opacity: 0.8;
+}
+.projet-card .projet-card-text {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+}
+.projet-card .projet-card-title {
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+}
+.projet-card:hover .projet-card-title,
+.projet-card:focus .projet-card-title {
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}

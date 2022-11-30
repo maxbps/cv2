@@ -16,7 +16,7 @@ function Description() {
               <img
                 class="img-fluid rounded-circle description-img"
                 src={max}
-                alt=""
+                alt="maxime developpeur react"
               />
             </div>
           </div>
